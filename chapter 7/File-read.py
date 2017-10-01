@@ -5,4 +5,4 @@ except:
 	print('File not found:',fname)
 	quit()
 for x in fhand:
-	print(x.upper())
+	print(x.rstrip().upper())
